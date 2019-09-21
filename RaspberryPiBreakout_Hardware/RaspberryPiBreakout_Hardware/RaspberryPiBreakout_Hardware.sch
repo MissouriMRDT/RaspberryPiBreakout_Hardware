@@ -473,4 +473,35 @@ Wire Wire Line
 	4450 3500 4350 3500
 Wire Wire Line
 	4350 3500 4350 3550
+Wire Wire Line
+	8600 2700 8700 2700
+Wire Wire Line
+	8600 2800 8700 2800
+Wire Wire Line
+	4600 2400 4500 2400
+Wire Wire Line
+	4600 2500 4500 2500
+Text GLabel 8700 2700 2    50   Output ~ 0
+Serial_Tx
+Text GLabel 8700 2800 2    50   Input ~ 0
+Serial_Rx
+Text GLabel 4500 2400 0    50   Input ~ 0
+Serial_Tx
+Text GLabel 4500 2500 0    50   Output ~ 0
+Serial_Rx
+$Comp
+L power:GND #PWR?
+U 1 1 5D86CBC9
+P 4500 2650
+F 0 "#PWR?" H 4500 2400 50  0001 C CNN
+F 1 "GND" H 4500 2500 50  0000 C CNN
+F 2 "" H 4500 2650 50  0001 C CNN
+F 3 "" H 4500 2650 50  0001 C CNN
+	1    4500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2600 4500 2600
+Wire Wire Line
+	4500 2600 4500 2650
 $EndSCHEMATC
