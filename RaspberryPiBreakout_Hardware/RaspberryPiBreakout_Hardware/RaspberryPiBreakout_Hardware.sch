@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:RaspberryPiBreakout_Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -129,21 +130,6 @@ Wire Wire Line
 	8700 2300 8600 2300
 Wire Wire Line
 	8600 2400 8600 2300
-$Comp
-L power:GND #PWR0105
-U 1 1 5C786453
-P 8700 2550
-F 0 "#PWR0105" H 8700 2300 50  0001 C CNN
-F 1 "GND" H 8800 2550 50  0000 C CNN
-F 2 "" H 8700 2550 50  0001 C CNN
-F 3 "" H 8700 2550 50  0001 C CNN
-	1    8700 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 2500 8700 2500
-Wire Wire Line
-	8700 2500 8700 2550
 $Comp
 L power:GND #PWR0106
 U 1 1 5C78651A
@@ -428,62 +414,52 @@ $Comp
 L MRDT_Connectors:Molex_SL_04 Conn3
 U 1 1 5D863FC3
 P 4750 3550
-F 0 "Conn3" H 4877 3808 60  0000 L CNN
-F 1 "Molex_SL_04" H 4877 3702 60  0000 L CNN
+F 0 "Conn3" H 4750 3100 60  0000 L CNN
+F 1 "Molex_SL_04" H 4550 3000 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 4750 3550 60  0001 C CNN
 F 3 "" H 4750 3550 60  0001 C CNN
 	1    4750 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4450 3200 0    50   Input ~ 0
+Text GLabel 4050 3300 0    50   Input ~ 0
 SDA1
-Text GLabel 4450 3300 0    50   Input ~ 0
+Text GLabel 4050 3400 0    50   Input ~ 0
 SCL1
 $Comp
 L power:GND #PWR0119
 U 1 1 5D8640AD
-P 4450 3550
-F 0 "#PWR0119" H 4450 3300 50  0001 C CNN
-F 1 "GND" H 4450 3400 50  0000 C CNN
-F 2 "" H 4450 3550 50  0001 C CNN
-F 3 "" H 4450 3550 50  0001 C CNN
-	1    4450 3550
+P 4350 3550
+F 0 "#PWR0119" H 4350 3300 50  0001 C CNN
+F 1 "GND" H 4350 3400 50  0000 C CNN
+F 2 "" H 4350 3550 50  0001 C CNN
+F 3 "" H 4350 3550 50  0001 C CNN
+	1    4350 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 3400 4100 3400
-Wire Wire Line
-	4100 3400 4100 3350
 $Comp
 L power:+3.3V #PWR0120
 U 1 1 5D864B77
-P 4100 3350
-F 0 "#PWR0120" H 4100 3200 50  0001 C CNN
-F 1 "+3.3V" H 3950 3350 50  0000 C CNN
-F 2 "" H 4100 3350 50  0001 C CNN
-F 3 "" H 4100 3350 50  0001 C CNN
-	1    4100 3350
+P 4650 2950
+F 0 "#PWR0120" H 4650 2800 50  0001 C CNN
+F 1 "+3.3V" H 4650 3100 50  0000 C CNN
+F 2 "" H 4650 2950 50  0001 C CNN
+F 3 "" H 4650 2950 50  0001 C CNN
+	1    4650 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 3300 4550 3300
+	4550 3500 4500 3500
 Wire Wire Line
-	4450 3200 4550 3200
-Wire Wire Line
-	4550 3500 4450 3500
-Wire Wire Line
-	4450 3500 4450 3550
+	8600 2600 8700 2600
 Wire Wire Line
 	8600 2700 8700 2700
-Wire Wire Line
-	8600 2800 8700 2800
 Wire Wire Line
 	4550 2350 4450 2350
 Wire Wire Line
 	4550 2450 4450 2450
-Text GLabel 8700 2700 2    50   Input ~ 0
+Text GLabel 8700 2600 2    50   Input ~ 0
 Serial_Tx
-Text GLabel 8700 2800 2    50   Output ~ 0
+Text GLabel 8700 2700 2    50   Output ~ 0
 Serial_Rx
 Text GLabel 4450 2350 0    50   Output ~ 0
 Serial_Tx
@@ -746,4 +722,94 @@ Text Notes 2250 3200 0    50   ~ 0
 Yellow
 Text Notes 850  3200 0    50   ~ 0
 Green
+Wire Wire Line
+	8600 2500 9200 2500
+Wire Wire Line
+	9200 2500 9200 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5D86E6EB
+P 9200 2550
+F 0 "#PWR?" H 9200 2300 50  0001 C CNN
+F 1 "GND" H 9300 2550 50  0000 C CNN
+F 2 "" H 9200 2550 50  0001 C CNN
+F 3 "" H 9200 2550 50  0001 C CNN
+	1    9200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D86EDA2
+P 4150 3150
+F 0 "R?" V 4050 3100 50  0000 L CNN
+F 1 "4.7k" V 4150 3050 50  0000 L CNN
+F 2 "" V 4080 3150 50  0001 C CNN
+F 3 "~" H 4150 3150 50  0001 C CNN
+	1    4150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D86EE3C
+P 4400 3150
+F 0 "R?" V 4300 3100 50  0000 L CNN
+F 1 "4.7k" V 4400 3050 50  0000 L CNN
+F 2 "" V 4330 3150 50  0001 C CNN
+F 3 "~" H 4400 3150 50  0001 C CNN
+	1    4400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3300 4550 3300
+Connection ~ 4400 3300
+Wire Wire Line
+	4500 3200 4550 3200
+Wire Wire Line
+	4500 3200 4500 3000
+Wire Wire Line
+	4400 3000 4500 3000
+Connection ~ 4400 3000
+Wire Wire Line
+	5050 3000 5050 3150
+Connection ~ 4500 3000
+$Comp
+L Device:CP1 C?
+U 1 1 5D882617
+P 5050 3300
+F 0 "C?" H 5165 3346 50  0000 L CNN
+F 1 "CP1" H 5165 3255 50  0000 L CNN
+F 2 "" H 5050 3300 50  0001 C CNN
+F 3 "~" H 5050 3300 50  0001 C CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3500 4500 3650
+Wire Wire Line
+	4500 3650 5050 3650
+Wire Wire Line
+	5050 3650 5050 3450
+Connection ~ 4500 3500
+Wire Wire Line
+	4350 3500 4350 3550
+Wire Wire Line
+	4350 3500 4500 3500
+Wire Wire Line
+	4500 3000 4650 3000
+Wire Wire Line
+	4650 3000 4650 2950
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 3000 5050 3000
+Wire Wire Line
+	4150 3300 4150 3400
+Connection ~ 4150 3400
+Wire Wire Line
+	4150 3400 4550 3400
+Wire Wire Line
+	4050 3400 4150 3400
+Wire Wire Line
+	4150 3000 4400 3000
+Wire Wire Line
+	4050 3300 4400 3300
 $EndSCHEMATC
