@@ -481,13 +481,13 @@ Wire Wire Line
 	4600 2400 4500 2400
 Wire Wire Line
 	4600 2500 4500 2500
-Text GLabel 8700 2700 2    50   Output ~ 0
+Text GLabel 8700 2700 2    50   Input ~ 0
 Serial_Tx
-Text GLabel 8700 2800 2    50   Input ~ 0
+Text GLabel 8700 2800 2    50   Output ~ 0
 Serial_Rx
-Text GLabel 4500 2400 0    50   Input ~ 0
+Text GLabel 4500 2400 0    50   Output ~ 0
 Serial_Tx
-Text GLabel 4500 2500 0    50   Output ~ 0
+Text GLabel 4500 2500 0    50   Input ~ 0
 Serial_Rx
 $Comp
 L power:GND #PWR?
