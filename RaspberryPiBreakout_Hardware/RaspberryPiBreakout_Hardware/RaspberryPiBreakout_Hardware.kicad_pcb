@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "RasberryPiBreakout_Gerbs_Rev1/"))
+      (outputdirectory "Gerbs/"))
   )
 
   (net 0 "")
@@ -2464,7 +2464,7 @@
   (segment (start 155.575 106.68) (end 152.245 106.68) (width 0.381) (layer F.Cu) (net 12))
   (segment (start 155.575 102.87) (end 152.245 102.87) (width 0.381) (layer F.Cu) (net 13))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D8EC18B) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C7902EA) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2765,7 +2765,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D8EC188) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C7902E7) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
