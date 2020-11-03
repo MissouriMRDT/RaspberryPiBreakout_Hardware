@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS711
+D Current Sensor
+$ENDCMP
+#
+$CMP AD8655
+D OpAMP
+$ENDCMP
+#
+$CMP AP1509
+D 3.3V IC Buck Converter
+K 8 SOP
+$ENDCMP
+#
+$CMP BA00DD0WHFP
+D LDO Regulator
+$ENDCMP
+#
+$CMP DRV8301
+D 3-Phase Gate Driver
+$ENDCMP
+#
+$CMP INA132
+D OpAmp
+$ENDCMP
+#
+$CMP INA281
+D Current Sensing Amplifier
+F https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281
+$ENDCMP
+#
+$CMP IRF7821PbF
+D Power MOSFET
+$ENDCMP
+#
+$CMP LB1930MC
+D Bidirectional Motor Driver
+$ENDCMP
+#
+$CMP LT1910
+D Gate Driver
+$ENDCMP
+#
+$CMP MAX_3232
+D CMOS->TTL Level Shifter
+$ENDCMP
+#
+$CMP MUX508
+D 3x8 Multiplexer
+$ENDCMP
+#
+$CMP NUP4201MR6
+D Transient Voltage Suppressor
+$ENDCMP
+#
+$CMP VNH5019A_E
+D H-Bridge
+$ENDCMP
+#
+#End Doc Library

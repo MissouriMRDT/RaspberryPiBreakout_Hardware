@@ -1,4 +1,4 @@
-update=10/23/2020 8:48:33 PM
+update=11/3/2020 4:50:09 PM
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=RaspberryPiBreakout_Hardware.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -31,8 +41,6 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.381
 TrackWidth3=0.762
-TrackWidth4=1.27
-TrackWidth5=2.54
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -61,7 +69,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
