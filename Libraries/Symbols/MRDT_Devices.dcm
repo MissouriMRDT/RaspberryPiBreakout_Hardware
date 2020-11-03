@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Buzzer
+D Buzzer
+$ENDCMP
+#
+$CMP DRV2605LDGSR
+D Haptic Driver for ERM and LRA with Built-In Library and Smart Loop Architecture
+F http://www.ti.com/lit/gpn/drv2605l
+$ENDCMP
+#
+$CMP LDD-1500L
+D LED Driver
+$ENDCMP
+#
+$CMP LM2576D2TR4
+D Buck 3A Max
+K Buck
+F https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf
+$ENDCMP
+#
+$CMP OKI
+D DC/DC Buck Converter
+K OKI
+$ENDCMP
+#
+$CMP Q36SR12020NRFA
+D DC-DC Converter
+$ENDCMP
+#
+#End Doc Library
